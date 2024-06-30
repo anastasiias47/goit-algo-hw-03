@@ -9,5 +9,6 @@ def get_numbers_ticket(min, max, quantity):
 
     return sorted(random_numbers)
 
-print(get_numbers_ticket(1, 20,5))
- #asdasdsd-=AO[PDSFODP[S
+lottery_numbers = get_numbers_ticket(1, 49, 6)
+print("Ваші лотерейні числа:", lottery_numbers)
+
